@@ -29,6 +29,7 @@ group :production do
   gem 'rails_12factor'
 end
 group :test do
+  gem 'cucumber'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
